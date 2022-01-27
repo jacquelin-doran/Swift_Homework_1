@@ -104,3 +104,6 @@ for index in 10...1{
 Problem 10: Underscore notation can be used to craft a for loop where the index variable is not needed.  Use this notation to write a for loop that computes the product of x * y using only the + operator. 
 */
 
+
+
+
