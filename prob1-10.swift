@@ -96,7 +96,7 @@ for index in 1...10{
 Problem 9: Write a for loop where the index variable ranges from 10 down to 1.  Print the index variable during each iteration. 
 */
 print("Problem 9")
-for index in 10...1{
+for index in stride(from:10,to:1, by:-1){
   print("\(index)")
 }
 
@@ -104,6 +104,13 @@ for index in 10...1{
 Problem 10: Underscore notation can be used to craft a for loop where the index variable is not needed.  Use this notation to write a for loop that computes the product of x * y using only the + operator. 
 */
 
-
+print("Problem 10")
+let x = 2
+let y = 3
+var out = 0
+for _ in 1...y{
+  out += x
+}
+print(out)
 
 
